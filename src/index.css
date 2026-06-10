@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #7a0019;
+}
+
+.drop-button {
+  background-color: #222222;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.drop-button:hover {
+  background-color: #7a0019;
+}
+.check-item {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: normal;
+}
+
+.check-item input {
+  margin-right: 10px;
+}
+
+.faq-item {
+  margin-bottom: 12px;
+}
+
+.faq-question {
+  width: 100%;
+  background-color: #7a0019;
+  color: white;
+  border: none;
+  padding: 12px;
+  text-align: left;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.faq-answer {
+  background-color: #f4f4f4;
+  border: 1px solid #dddddd;
+  padding: 12px;
+  margin-top: 0;
+}
